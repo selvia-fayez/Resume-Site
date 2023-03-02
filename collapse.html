@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section d-flex row w-100 g-0" style="height: 70vh">
+        <div class="image col-4 h-100">
+          <img src="pexels-hatice-baran-14589787.jpg" class="h-100 w-100" />
+        </div>
+        <div class="right col w-100">
+          <nav
+            class="navbar navbar-expand w-100 bg-secondary"
+            style="height: 40%"
+          >
+            <ul class="navbar-nav container-fluid text-white p-5">
+              <li class="fs-6"><h1>John Doe</h1></li>
+              <li class="nav-item"><i class="fa-brands fa-twitter"></i></li>
+              <li class="nav-item">
+                <i class="fa-brands fa-square-facebook"></i>
+              </li>
+              <li class="nav-item"><i class="fa-brands fa-instagram"></i></li>
+              <li class="nav-item"><i class="fa-brands fa-github"></i></li>
+            </ul>
+          </nav>
+          <div class="bg-black text-white" style="height: 15%; padding: 20px">
+            <p>Experienced Full Stack Web Development</p>
+          </div>
+          <div
+            class="w-100 container row g-0 accordion accordion-flush"
+            id="accordionFlushExample"
+            style="height: 45%"
+          >
+            <div
+              class="col bg-primary accordion-item text-white d-flex align-items-center justify-content-center"
+            >
+              <h4 class="accordion-header" id="flush-headingOne">
+                <div
+                  class="collapsed"
+                  style="text-align: center"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  <i class="fa-solid fa-house"></i>
+                  <p>Home</p>
+                </div>
+              </h4>
+            </div>
+            <div
+              class="col bg-success accordion-item text-white d-flex align-items-center justify-content-center"
+            >
+              <h4 class="accordion-header" id="flush-headingTwo">
+                <div
+                  class="collapsed"
+                  style="text-align: center"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <p>Resume</p>
+                </div>
+              </h4>
+            </div>
+            <div
+              class="col bg-warning accordion-item text-white d-flex align-items-center justify-content-center"
+            >
+              <h4 class="accordion-header" id="flush-headingThree">
+                <div
+                  class="collapsed"
+                  style="text-align: center"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  <i class="fa-solid fa-folder-open"></i>
+                  <p>Work</p>
+                </div>
+              </h4>
+            </div>
+            <div
+              class="col bg-danger accordion-item text-white d-flex align-items-center justify-content-center"
+            >
+              <h4 class="accordion-header" id="flush-headingFour">
+                <div
+                  class="collapsed"
+                  style="text-align: center"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  <i class="fa-solid fa-folder-open"></i>
+                  <p>Contact</p>
+                </div>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="flush-collapseOne"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body bg-primary text-white p-4">
+          <h1>Welcome To My Page</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam,
+            nihil.
+          </p>
+        </div>
+      </div>
+      <div
+        id="flush-collapseTwo"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body bg-success text-white p-4">
+          <h1>My Resume</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam,
+            nihil.
+          </p>
+        </div>
+      </div>
+      <div
+        id="flush-collapseThree"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body bg-warning text-white p-4">
+          <h1>My Work</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam,
+            nihil.
+          </p>
+        </div>
+      </div>
+      <div
+        id="flush-collapseFour"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingFour"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body bg-danger text-white p-4">
+          <h1>Contact</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam,
+            nihil.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+      $(".collapsed").click(function () {
+        $(".collapse").collapse("hide");
+      });
+    </script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
